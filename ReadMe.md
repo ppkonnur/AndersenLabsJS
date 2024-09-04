@@ -7,7 +7,7 @@ Prerequisite :
 
 Git Location:
 
-https://github.com/ppkonnur/AndersenLabs
+https://github.com/ppkonnur/AndersenLabsJS
 
 Maven command to run:
 
