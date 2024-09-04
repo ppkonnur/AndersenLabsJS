@@ -1,0 +1,18 @@
+{
+    "CreateAcount": {
+        "username" : "kon",
+        "email" : "test3@gmail.com",
+        "password" : "Modern@123"
+    },
+    "InvalidAccount":{
+        "username" : "ok",
+        "email" : "test2@gmail.com",
+        "password" : "Modern@123",
+        "ErrMessage" : "Username must have 3 characters"
+    },
+    "Login":{
+        "username" : "pra",        
+        "password" : "Modern@123"
+    }
+
+}

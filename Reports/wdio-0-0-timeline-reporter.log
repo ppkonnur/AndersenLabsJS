@@ -1,0 +1,141 @@
+{
+  "start": "2024-09-04T04:27:11.472Z",
+  "end": "2024-09-04T04:27:37.750Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "128.0.6613.86",
+    "chrome": {
+      "chromedriverVersion": "128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337})",
+      "userDataDir": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\scoped_dir18608_1036827663"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:62545"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webSocketUrl": "ws://localhost:62539/session/372576d5d5fd05a8f3e5dfe7c14f46f3",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "wdio:driverPID": 18608,
+    "sessionId": "372576d5d5fd05a8f3e5dfe7c14f46f3"
+  },
+  "host": "localhost",
+  "port": 62539,
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 60000,
+    "ui": "bdd"
+  },
+  "duration": 26278,
+  "suites": [
+    {
+      "title": "My Login application",
+      "duration": 26146,
+      "start": "2024-09-04T04:27:11.477Z",
+      "end": "2024-09-04T04:27:37.623Z",
+      "tests": [
+        {
+          "title": "Create Account",
+          "start": "2024-09-04T04:27:11.477Z",
+          "end": "2024-09-04T04:27:16.276Z",
+          "duration": 4799,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Invalid User Name",
+          "start": "2024-09-04T04:27:16.277Z",
+          "end": "2024-09-04T04:27:26.986Z",
+          "duration": 10709,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "Can't call setValue on element with selector \"#username\" because element wasn't found",
+            "stack": "Error: Can't call setValue on element with selector \"#username\" because element wasn't found\n    at async LoginPage.createAccount (file:///D:/Andersen/AndersenLabJS/test/pageobjects/login.page.js:44:9)\n    at async Context.<anonymous> (file:///D:/Andersen/AndersenLabJS/test/specs/sanity.js:20:9)"
+          }
+        },
+        {
+          "title": "Login",
+          "start": "2024-09-04T04:27:26.987Z",
+          "end": "2024-09-04T04:27:37.621Z",
+          "duration": 10634,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "Can't call scrollIntoView on element with selector \"//a[@href=\"/login\"]\" because element wasn't found",
+            "stack": "Error: Can't call scrollIntoView on element with selector \"//a[@href=\"/login\"]\" because element wasn't found\n    at async LoginPage.login (file:///D:/Andersen/AndersenLabJS/test/pageobjects/login.page.js:51:9)\n    at async Context.<anonymous> (file:///D:/Andersen/AndersenLabJS/test/specs/sanity.js:27:9)"
+          }
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-09-04T04:27:11.477Z",
+          "end": "2024-09-04T04:27:14.461Z",
+          "duration": 2984,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2024-09-04T04:27:16.276Z",
+          "end": "2024-09-04T04:27:16.276Z",
+          "duration": 0,
+          "title": "\"after each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2024-09-04T04:27:16.277Z",
+          "end": "2024-09-04T04:27:16.711Z",
+          "duration": 434,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2024-09-04T04:27:26.986Z",
+          "end": "2024-09-04T04:27:26.987Z",
+          "duration": 1,
+          "title": "\"after each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2024-09-04T04:27:26.987Z",
+          "end": "2024-09-04T04:27:27.428Z",
+          "duration": 441,
+          "title": "\"before each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        },
+        {
+          "start": "2024-09-04T04:27:37.622Z",
+          "end": "2024-09-04T04:27:37.622Z",
+          "duration": 0,
+          "title": "\"after each\" hook for My Login application",
+          "associatedSuite": "My Login application"
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "file:///D:/Andersen/AndersenLabJS/test/specs/sanity.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 2,
+    "skipped": 0
+  }
+}
