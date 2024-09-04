@@ -27,3 +27,9 @@ Framework:
 1. TestData Path : .test\testData\login.json
 2. Screenshot Folder : ./screenshots/                      (Takes screenshot after every test)
 3. Reports : .\Reports\timeline-report.html
+
+
+Testcases:
+1. Create Account using 3 char
+2. Create Account using 2 char (Negative flow, Intentionally failing test by checking different error message)
+3. Login using valid account. 
